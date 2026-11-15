@@ -1,23 +1,25 @@
 
 
-## 浏览器 3D 演示（无需机器人）
+## 浏览器 2D 演示与检测示例（无需机器人）
 
-新增独立的 `web_demo/`：可旋转和缩放房间，查看机器人与三类污渍，播放、暂停、重置模拟清洁过程，也可切换俯视、调整速度和重新布置目标。
+`web_demo/` 已改为 2D 俯视场景：查看机器人与三类污渍，播放、暂停、重置和加速模拟过程，并可选择目标和重新布置。旁边附带已有验证图像上的实际模型检测输出。
 
-[打开在线 3D 演示](https://ps9-cleaning-3d-demo.fhan08588.chatgpt.site)（私有，仅站点所有者可访问）。
+[打开在线 2D 演示](https://ps9-cleaning-3d-demo.fhan08588.chatgpt.site)（私有，仅站点所有者可访问）。
 
 ```bash
 # 在项目根目录运行，然后打开 http://127.0.0.1:8765
 python3 -m http.server 8765 --bind 127.0.0.1 --directory web_demo
 ```
 
-**演示中的场景、坐标、预设路线及清洁结果均为模拟数据，尚未连接相机、ROS 2 或真实机器人。** 不需要安装 Node.js 或 ROS；Three.js 依赖已附带。操作与后续接入说明见 [web_demo/README.md](web_demo/README.md)，验证记录见 [verification/WEB_DEMO.md](verification/WEB_DEMO.md)。
+**演示中的场景、坐标、预设路线及清洁结果均为模拟数据，尚未连接相机、ROS 2 或真实机器人。** 不需要安装 Node.js、ROS 或 3D 图形依赖。检测图片是模型预测，不是人工真值标注。操作与后续接入说明见 [web_demo/README.md](web_demo/README.md)，验证记录见 [verification/WEB_DEMO_2D.md](verification/WEB_DEMO_2D.md)。
+
+个人主页：[Fang Han — Industrial Experience](https://fang-han-portfolio.fhan08588.chatgpt.site/#industrial-experience)。该项目由 Fang Han 在 Sichuan Jiutian Embodied Intelligence 负责，时间为 Summer 2026。
 
 ## 1. 项目结构
 
 ```text
 ps9_cleaning_ros2/
-├── web_demo/                     # 独立浏览器 3D 模拟演示及其本地依赖
+├── web_demo/                     # 2D 模拟演示与真实验证图像检测示例
 ├── src/ps9_cleaning_perception/
 │   ├── package.xml / setup.py / setup.cfg
 │   ├── resource/ps9_cleaning_perception
