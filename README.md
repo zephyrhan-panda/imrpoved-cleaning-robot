@@ -1,10 +1,4 @@
-# PS9 清洁机器人识别 · ROS 2 项目
 
-把 PS9 外接盘 `dirt cleaning/deliverable/scripts/predict.py` 封装为 ROS 2 Python 包 `ps9_cleaning_perception`。原始 `best.onnx` 与 `best.pt` 已随项目复制，运行时不依赖外接盘路径。
-
-保留原来的 Ultralytics 8.4.10 推理、letterbox 预处理和 NMS，默认 ONNX / CPU、输入尺寸 640、置信度 0.30、NMS IoU 0.70。没有重新训练，也没有替换成后来的 `all_to_train_refsafe_v1` 模型。
-
-面向 **Ubuntu 24.04 + ROS 2 Jazzy**；代码也按 **Ubuntu 22.04 + ROS 2 Humble / Python 3.10** 的接口编写。当前验证机器为 macOS，无 ROS 2 运行时；实际验证范围见 `verification/VERIFICATION.md`，Ubuntu 上的 DDS 通信测试仍需执行。
 
 ## 1. 项目结构
 
