@@ -1,0 +1,7 @@
+Starting >>> ps9_cleaning_perception
+.................                                                        [100%]
+- generated xml file: /Users/zephyrteresa/Documents/Codex/2026-10-29/ban/work/colcon/build/ps9_cleaning_perception/pytest.xml -
+17 passed, 1 skipped in 2.03s
+Finished <<< ps9_cleaning_perception [2.59s]
+
+Summary: 1 package finished [2.65s]

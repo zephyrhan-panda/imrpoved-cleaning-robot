@@ -1,0 +1,24 @@
+{
+  "model": "/Users/zephyrteresa/Documents/Codex/2026-10-29/ban/outputs/ps9_cleaning_ros2/src/ps9_cleaning_perception/models/best.onnx",
+  "source": "/Users/zephyrteresa/Documents/Codex/2026-10-29/ban/outputs/ps9_cleaning_ros2/src/ps9_cleaning_perception/samples/sample.png",
+  "first_inference_seconds": 0.11397291696630418,
+  "width": 2448,
+  "height": 2048,
+  "class_names": {
+    "0": "bigdirt",
+    "1": "dirt",
+    "2": "water",
+    "3": "background"
+  },
+  "detections": [
+    {
+      "class_id": 0,
+      "class_name": "bigdirt",
+      "score": 0.9586209058761597,
+      "x1": 1875.7816162109375,
+      "y1": 966.1491088867188,
+      "x2": 2261.20068359375,
+      "y2": 1711.007568359375
+    }
+  ]
+}

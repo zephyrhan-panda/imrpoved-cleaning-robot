@@ -1,0 +1,17 @@
+/**:
+  ros__parameters:
+    # Empty model_path resolves to the installed, original best.onnx.
+    model_path: ""
+    image_topic: /camera/image_raw
+    image_reliability: best_effort
+    confidence: 0.30
+    iou: 0.70
+    image_size: 640
+    device: cpu
+    max_detections: 300
+    max_fps: 10.0
+    max_image_age_sec: 2.0
+    publish_annotated: true
+    # Empty preserves all original outputs, including class 3: background.
+    # Set to "background" to omit that class from ROS outputs.
+    exclude_classes: ""

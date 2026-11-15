@@ -1,0 +1,7 @@
+# ROS 2 Humble/Jazzy: use an Ubuntu system-Python venv, not Conda.
+# NumPy 1.x preserves compatibility with distro cv_bridge binaries.
+numpy==1.26.4
+opencv-python==4.11.0.86
+ultralytics==8.4.10
+onnx==1.19.1
+onnxruntime==1.23.2

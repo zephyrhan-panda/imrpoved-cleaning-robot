@@ -1,0 +1,4 @@
+dirt
+bigdirt
+water
+background

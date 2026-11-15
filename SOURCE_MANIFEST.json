@@ -1,0 +1,42 @@
+{
+  "source_model_selection": "Original deliverable ONNX, not the later refsafe_v1 retrained model",
+  "sample_split": "validation; no test data accessed",
+  "files": [
+    {
+      "source": "/Volumes/Lenovo PS9/dirt cleaning/deliverable/weights/best.onnx",
+      "destination": "src/ps9_cleaning_perception/models/best.onnx",
+      "bytes": 12267605,
+      "sha256": "b613f2a236858bacf57f0cdbb7da2e263ee58d968d36bb06e2bf74a00d349153"
+    },
+    {
+      "source": "/Volumes/Lenovo PS9/dirt cleaning/deliverable/weights/best.pt",
+      "destination": "src/ps9_cleaning_perception/models/best.pt",
+      "bytes": 6247082,
+      "sha256": "e2a9de59a8f88eba57e707234f0072fdf413dfd360d1cd727e1e209bf5f45c20"
+    },
+    {
+      "source": "/Volumes/Lenovo PS9/all_to_train_refsafe_v1/images/val/edbf763b383d__scan_21_20260714_165613.png",
+      "destination": "src/ps9_cleaning_perception/samples/sample.png",
+      "bytes": 5848684,
+      "sha256": "edbf763b383db72d5425a4c2b3274384245207f117d294437c9b39c48a7840b9"
+    },
+    {
+      "source": "/Volumes/Lenovo PS9/dirt cleaning/deliverable/scripts/predict.py",
+      "destination": "legacy/predict.py",
+      "bytes": 1912,
+      "sha256": "356919d8eef46a01fd641728a53a9f207b85af1cbcdd5ccbb0f093f30d77ab06"
+    },
+    {
+      "source": "/Volumes/Lenovo PS9/dirt cleaning/deliverable/data/classes.txt",
+      "destination": "legacy/classes.txt",
+      "bytes": 30,
+      "sha256": "431e1afb5e62608e1fede20a1441098ec41f496da2be1f9d48553b575982a3e8"
+    },
+    {
+      "source": "/Volumes/Lenovo PS9/dirt cleaning/deliverable/data/dataset.yaml",
+      "destination": "legacy/dataset.yaml",
+      "bytes": 106,
+      "sha256": "6819cba1712349d614111cd6108a73e14203b3569714a5f46327128bf65115f6"
+    }
+  ]
+}

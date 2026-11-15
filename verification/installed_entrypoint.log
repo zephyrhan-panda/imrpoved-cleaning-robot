@@ -1,0 +1,3 @@
+Loading /Users/zephyrteresa/Documents/Codex/2026-10-29/ban/outputs/ps9_cleaning_ros2/src/ps9_cleaning_perception/models/best.onnx for ONNX Runtime inference...
+Using ONNX Runtime 1.23.2 with CPUExecutionProvider
+1 detections; outputs: /Users/zephyrteresa/Documents/Codex/2026-10-29/ban/work/installed_smoke
